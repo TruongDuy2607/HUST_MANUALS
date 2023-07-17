@@ -1,0 +1,331 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbead0">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="364dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/TextStyle9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="ỨNG DỤNG HUSTER CẦN"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/textView1"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:id="@+id/ImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_ictsv" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/textView1"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/ImageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_ehust" />
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextStyle10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView2"
+            android:layout_marginTop="-20dp"
+            android:text="iCTSV           eHUST" />
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/TextStyle9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="30dp"
+            android:text="FANPAGE HUSTER CẦN"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="230dp"
+            android:layout_below="@id/textView3"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:background="@drawable/bg_radius_red_main"
+            android:elevation="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_centerHorizontal="true"
+                app:cardElevation="12dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_ictsv" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/TextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardView4"
+                android:layout_centerHorizontal="true"
+                android:text="TỔ HỖ TRỢ TRIỂN KHAI HỆ THỐNG ICTST"
+                style="@style/TextStyle11"
+                android:textColor="@color/red_main"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="230dp"
+            android:layout_below="@id/textView3"
+            android:layout_marginTop="290dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_radius_red_main"
+            android:elevation="12dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_radius_red_main"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <ImageView
+                    android:id="@+id/ImageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img_hsv" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/TextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardView5"
+                android:layout_centerHorizontal="true"
+                android:text="HỘI SINH VIÊN ĐẠI HỌC BÁCH KHOA HN"
+                style="@style/TextStyle11"
+                android:textColor="@color/red_main"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="230dp"
+            android:layout_below="@id/textView3"
+            android:layout_marginTop="550dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_radius_red_main"
+            android:elevation="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView6"
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <ImageView
+                    android:id="@+id/ImageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img_dtn" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/TextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardView6"
+                android:layout_centerHorizontal="true"
+                android:text="ĐOÀN THANH NIÊN ĐẠI HỌC BÁCH KHOA HN"
+                style="@style/TextStyle11"
+                android:textColor="@color/red_main"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="230dp"
+            android:layout_below="@id/textView3"
+            android:layout_marginTop="810dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_radius_red_main"
+            android:elevation="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView7"
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <ImageView
+                    android:id="@+id/ImageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img_bktn"
+                    android:scaleType="centerCrop"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/TextView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardView7"
+                android:layout_centerHorizontal="true"
+                android:text="BÁCH KHOA THANH NIÊN ĐỒNG CHÍ HỘI"
+                style="@style/TextStyle11"
+                android:textColor="@color/red_main"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/TextStyle9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="1110dp"
+            android:text="GROUP HUSTER CẦN"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="230dp"
+            android:layout_below="@id/textView8"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_radius_red_main"
+            android:elevation="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView8"
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <ImageView
+                    android:id="@+id/ImageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_drl" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/TextView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardView8"
+                android:layout_marginLeft="30dp"
+                android:text="ĐIỂM RÈN LUYỆN HUST"
+                style="@style/TextStyle11"
+                android:textColor="@color/red_main"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="230dp"
+            android:layout_below="@id/textView8"
+            android:layout_marginTop="290dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_radius_red_main"
+            android:elevation="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView9"
+                android:layout_width="340dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp"
+                android:layout_marginBottom="30dp">
+
+                <ImageView
+                    android:id="@+id/ImageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_cbsv" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardView9"
+                android:layout_marginLeft="30dp"
+                android:text="HỖ TRỢ HỌC TẬP DẠI CƯƠNG ĐH BKHN"
+                style="@style/TextStyle11"
+                android:textColor="@color/red_main"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,235 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbead0">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:text="NHỮNG CON SỐ NỔI BẬT"
+            style="@style/TextStyle1"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THÀNH LẬP NĂM"
+            android:layout_below="@id/textView1"
+            style="@style/TextStyle2"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1956"
+            android:layout_below="@id/textView2"
+            style="@style/TextStyle3"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ĐÀO TẠO"
+            android:layout_below="@id/textView3"
+            style="@style/TextStyle2"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="~35.000"
+            android:layout_below="@id/textView4"
+            style="@style/TextStyle3"/>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SINH VIÊN, HỌC VIÊN CAO HỌC VÀ NGHIÊN CỨU SINH. 65 CHUYÊN NGÀNH ĐẠI HỌC, 47 CHUYÊN NGÀNH CAO HỌC, 32 CHUYÊN NGÀNH TIẾN SĨ"
+            android:layout_below="@id/textView5"
+            style="@style/TextStyle4"/>
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HỢP TÁC"
+            android:layout_below="@id/textView6"
+            style="@style/TextStyle2"/>
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="> 200"
+            android:layout_below="@id/textView7"
+            style="@style/TextStyle3"/>
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRƯỜNG ĐẠI HỌC, TRUNG TÂM NGHIÊN CỨU KHOA HỌC VÀ TỔ CHỨC GIÁO DỤC CỦA 32 QUỐC GIA"
+            android:layout_below="@id/textView8"
+            style="@style/TextStyle4"/>
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500"
+            android:layout_below="@id/textView9"
+            style="@style/TextStyle3"/>
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CÁN BỘ, SINH VIÊN HỌC TẬP, NGHIÊN CỨU, TRAO ĐỔI QUỐC TẾ"
+            android:layout_below="@id/textView10"
+            style="@style/TextStyle4"/>
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TỔNG QUAN"
+            android:layout_below="@id/textView11"
+            style="@style/TextStyle5"/>
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đại học Bách khoa Hà Nội (tên tiếng Anh Hanoi University of Science and Technology – viết tắt HUST) được thành lập theo Nghị định số 147/NĐ ngày 6-3-1956 do Bộ trưởng Bộ Giáo dục Nguyễn Văn Huyên ký. Đây là trường đại học kỹ thuật đầu tiên của nước ta có nhiệm vụ đào tạo kỹ sư công nghiệp cho công cuộc xây dựng CNXH ở miền Bắc và đấu tranh giải phóng miền Nam; là trung tâm đào tạo, nghiên cứu khoa học và công nghệ đa ngành, đa lĩnh vực; kết hợp chặt chẽ giữa đào tạo với nghiên cứu khoa học nhằm tạo nguồn nhân lực chất lượng cao và bồi dưỡng nhân tài khoa học, công nghệ; định hướng phát triển thành đại học nghiên cứu ngang tầm với các đại học có uy tín trong khu vực và trên thế giới."
+            android:layout_below="@id/textView12"
+            style="@style/TextStyle6"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SỨ MẠNG, TẦM NHÌN, GIÁ TRỊ CỐT LÕI"
+            android:layout_below="@id/textView13"
+            style="@style/TextStyle5"/>
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sứ mạng"
+            android:layout_below="@id/textView14"
+            style="@style/TextStyle7"/>
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phát triển con người, đào tạo nhân lực chất lượng cao, nghiên cứu khoa học, sáng tạo công nghệ và chuyển giao tri thức, phục vụ xã hội và đất nước."
+            android:layout_below="@id/textView15"
+            style="@style/TextStyle6"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tầm nhìn"
+            android:layout_below="@id/textView16"
+            style="@style/TextStyle7"/>
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trở thành một đại học nghiên cứu hàng đầu khu vực với nòng cốt là kỹ thuật và công nghệ, tác động quan trọng vào phát triển nền kinh tế tri thức và góp phần gìn giữ an ninh, hòa bình đất nước, tiên phong trong hệ thống giáo dục đại học Việt Nam."
+            android:layout_below="@id/textView17"
+            style="@style/TextStyle6"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá trị cốt lõi"
+            android:layout_below="@id/textView18"
+            style="@style/TextStyle7"/>
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Chất lượng - hiệu quả: Yếu tố cốt lõi làm nên thương hiệu Đại học Bách khoa Hà Nội là chất lượng xuất sắc gắn liền với hiệu quả tối ưu trong mọi hoạt động và trên mọi phương diện. \n
+2. Tận tụy - cống hiến: Sự tận tụy và đam mê là chìa khóa cho mọi thành công; sự tận tâm và cống hiến hết mình làm nên giá trị cao quý nhất của các thế hệ cán bộ và sinh viên Trường Đại học Bách khoa Hà Nội.\n
+3. Chính trực - tôn trọng: Sự chính trực trong chuyên môn, nghiệp vụ và lối sống, cùng với sự tôn trọng nhân phẩm, tôn trọng luật pháp và quy định, tôn trọng sự đa dạng và khác biệt là những chuẩn mực đạo đức cốt lõi trong môi trường đại học.\n
+4. Tài năng cá nhân - trí tuệ tập thể: Mọi thành công đột phá đều bắt nguồn từ sáng tạo và tài năng cá nhân, nhưng chìa khóa đảm bảo thành công bền vững chính là sự đoàn kết và trí tuệ tập thể.\n
+5. Kế thừa - sáng tạo: Động lực chính cho phát triển bền vững là đổi mới sáng tạo dựa trên tiếp thu tinh hoa tri thức của nhân loại, kế thừa những thành quả đã đạt được và phát huy những giá trị truyền thống tốt đẹp."
+            android:layout_below="@id/textView19"
+            style="@style/TextStyle6"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CON NGƯỜI"
+            android:layout_below="@id/textView20"
+            style="@style/TextStyle5"/>
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/textView21"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/img"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="         PSG.TS \n Huỳnh Quyết Thắng"
+            android:layout_below="@id/img1"
+            android:layout_centerHorizontal="true"
+            style="@style/TextStyle8"/>
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/img1"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/img_1"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/img1"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/img_3"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"/>
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/img1"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/img_2"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="            PSG.TS \n Nguyễn Phong Điền"
+            android:layout_below="@id/img2"
+            style="@style/TextStyle8"/>
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="         PSG.TS \n Trần Ngọc Khiêm"
+            android:layout_below="@id/img2"
+            android:layout_centerHorizontal="true"
+            style="@style/TextStyle8"/>
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="         PSG.TS \nHuỳnh Đăng Chính"
+            android:layout_below="@id/img2"
+            android:layout_alignParentRight="true"
+            style="@style/TextStyle8"/>
+
+    </RelativeLayout>
+</ScrollView>
+

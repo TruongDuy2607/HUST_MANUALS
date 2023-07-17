@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/head_logo"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clipToOutline="true"
+        android:background="#FFFFFF">
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <View
+            android:id="@+id/hust_1"
+            android:layout_width="338.33dp"
+            android:layout_height="113.11dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="104dp"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/hust_logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/body_signin"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="280dp"
+        android:clipToOutline="true">
+
+        <EditText
+            android:id="@+id/edt_email_"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_radius"
+            android:hint="Email..."
+            android:textColorHint="#9E9898"
+            android:paddingLeft="20dp"
+            android:textColorLink="@color/black">
+        </EditText>
+        <EditText
+            android:id="@+id/edt_password_"
+            android:inputType="textPassword"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_radius"
+            android:hint="Password..."
+            android:textColorHint="#9E9898"
+            android:layout_marginTop="70dp"
+            android:paddingLeft="20dp"
+            android:textColorLink="@color/black">
+        </EditText>
+        <TextView
+            android:id="@+id/tv_forget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:gravity="end"
+            android:text="Forget password?"
+            android:textColor="@color/black"
+            android:layout_marginTop="130dp"
+            android:textSize="16dp"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_sign_in"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="Login"
+            android:textSize="20dp"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            app:backgroundTintMode="add"
+            app:cornerRadius="20dp"
+            app:backgroundTint="#CD1627">
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_singup"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:text="Signup"
+            android:textSize="20dp"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textColor="#CD1627"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="236dp"
+            app:backgroundTintMode="add"
+            app:cornerRadius="20dp"
+            app:backgroundTint="@color/white"
+            app:strokeColor="#CD1627"
+            app:strokeWidth="1dp">
+        </com.google.android.material.button.MaterialButton>
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
+
+

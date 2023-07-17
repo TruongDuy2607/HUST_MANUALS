@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1068734255582",
+    "project_id": "hustmanuals",
+    "storage_bucket": "hustmanuals.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068734255582:android:0a16837fda2d330a448d4f",
+        "android_client_info": {
+          "package_name": "com.example.hustmanuals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068734255582-jjrd0ft1m41atga91rf55373mentd37j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hustmanuals",
+            "certificate_hash": "4d984cdda3b4293d7a0659c6316cfff53ac52093"
+          }
+        },
+        {
+          "client_id": "1068734255582-4veqesdpnoflmrlqp1mql4o4b8gvi5vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKTlMF0ySu00UTWFzHk4zEtR-cgowD2Rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068734255582-4veqesdpnoflmrlqp1mql4o4b8gvi5vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
