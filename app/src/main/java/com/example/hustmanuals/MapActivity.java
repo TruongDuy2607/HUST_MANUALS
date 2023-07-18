@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.location.Address;
 import android.location.Geocoder;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.SearchView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -66,4 +67,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         myMap.addMarker(new MarkerOptions().position(latLng).title("Dai hoc Bach khoa Ha Noi"));
         myMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 18));
     }
+
 }
+

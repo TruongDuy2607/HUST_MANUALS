@@ -83,6 +83,7 @@
 
 
         <RelativeLayout
+            android:id="@+id/manu_ictsv"
             android:layout_width="370dp"
             android:layout_height="230dp"
             android:layout_below="@id/textView3"
@@ -122,6 +123,7 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/manu_hsv"
             android:layout_width="370dp"
             android:layout_height="230dp"
             android:layout_below="@id/textView3"
@@ -159,6 +161,7 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/manu_dtn"
             android:layout_width="370dp"
             android:layout_height="230dp"
             android:layout_below="@id/textView3"
@@ -197,6 +200,7 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/manu_bktn"
             android:layout_width="370dp"
             android:layout_height="230dp"
             android:layout_below="@id/textView3"
@@ -249,6 +253,7 @@
             android:shadowRadius="3"/>
 
         <RelativeLayout
+            android:id="@+id/manu_drl"
             android:layout_width="370dp"
             android:layout_height="230dp"
             android:layout_below="@id/textView8"
@@ -289,13 +294,15 @@
 
 
         <RelativeLayout
+            android:id="@+id/manu_htsv"
             android:layout_width="370dp"
             android:layout_height="230dp"
             android:layout_below="@id/textView8"
             android:layout_marginTop="290dp"
             android:layout_centerHorizontal="true"
             android:background="@drawable/bg_radius_red_main"
-            android:elevation="12dp">
+            android:elevation="12dp"
+            android:layout_marginBottom="30dp">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView9"
@@ -304,8 +311,7 @@
                 android:layout_margin="10dp"
                 android:layout_centerHorizontal="true"
                 app:cardCornerRadius="20dp"
-                app:cardElevation="12dp"
-                android:layout_marginBottom="30dp">
+                app:cardElevation="12dp">
 
                 <ImageView
                     android:id="@+id/ImageView9"
