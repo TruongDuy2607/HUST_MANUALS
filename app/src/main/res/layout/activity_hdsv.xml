@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ACACAC"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:elevation="5dp">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/frame">
+
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    style="@style/image_hdsv"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/svbk123" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:text="SVBK 2023"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.079"
+                    style="@style/TextStyle_hdsv02"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/TextStyle_hdsv01"
+                    android:text="SVBK trở lại với sự kết hợp của những gam màu đầy mới mẻ, báo hiệu một hành trình mới đang đợi các ứng viên tài năng cho ngôi vị quán quân SVBK 2023 khám phá."
+                    android:layout_gravity="center_horizontal"
+                    android:textFontWeight="4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.616" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="223dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/frame">
+
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView6"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/seeecup"
+                    style="@style/image_hdsv"/>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:text="SEEE CUP 2023"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.079"
+                    style="@style/TextStyle_hdsv02"/>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:text="Nối tiếp sự thành công của mùa giải trước, sắp tới đây, Giải bóng đá truyền thống Trường Điện - Điện tử - SEEE CUP 2023 sẽ quay trở lại, hứa hẹn đem đến cho các bạn những trận cầu mãn nhãn và bùng nổ."
+                    android:textFontWeight="4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.616"
+                    style="@style/TextStyle_hdsv01"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="231dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/frame">
+
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    style="@style/image_hdsv"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView9"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ctsv" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/TextStyle_hdsv02"
+                    android:text="CHÀO TÂN SINH VIÊN"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.079" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    style="@style/TextStyle_hdsv01"
+                    android:text="Quảng trường Tạ Quang Bửu đang trở nên nóng hơn bao giờ hết khi những khách mời đã tụ họp đầy đủ. Những khoảng trống đang dần được lấp đầy. Và bữa tiệc Đại nhạc hội HUST Fest: HÚT Phết đã chính thức bắt đầu!"
+                    android:textFontWeight="4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.594" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/frame">
+
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView12"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/giaolo"
+                    style="@style/image_hdsv"/>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:text="TAlKSHOW GIAO LỘ"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.076"
+                    style="@style/TextStyle_hdsv02"/>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:text="Với những kinh nghiệm, trải nghiệm sống qua các câu chuyện thực tiễn và thông điệp ý nghĩa, BKD tin rằng buổi Talkshow với sự góp mặt của 3 vị diễn giả sẽ truyền tải cho các bạn những kiến thức bổ ích,giúp các bạn sẽ có những góc nhìn mới mẻ."
+                    android:textFontWeight="4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.594"
+                    style="@style/TextStyle_hdsv01"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/frame">
+
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView15"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/techstart"
+                    style="@style/image_hdsv"/>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:text="TECHSTART"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.079"
+                    style="@style/TextStyle_hdsv02"/>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:text="Cuộc thi hứa hẹn sẽ là sân chơi khởi nghiệp lớn dành cho các bạn sinh viên đam mê khởi nghiệp, cũng như là nơi ươm mầm nên những dự án khởi nghiệp tiềm năng, góp phần tạo dựng nên cộng đồng khởi nghiệp đổi mới sáng tạo"
+                    android:textFontWeight="4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.594"
+                    style="@style/TextStyle_hdsv01"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="84dp">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="394dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="middle"
+                    android:scrollbarStyle="insideOverlay"
+                    android:text="One Love. One Future"
+                    android:textColor="#891924"
+                    android:textSize="40sp"
+                    android:typeface="normal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

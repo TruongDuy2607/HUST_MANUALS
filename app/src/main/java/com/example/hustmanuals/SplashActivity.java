@@ -21,7 +21,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 nextActivity();
             }
-        }, 2000);
+        }, 1000);
     }
     private  void nextActivity(){
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser(); //Kiem tra xem nguoi dung da login hay chua

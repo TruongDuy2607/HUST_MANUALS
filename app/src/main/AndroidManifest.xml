@@ -17,12 +17,24 @@
         android:theme="@style/Theme.HUSTMANUALS"
         tools:targetApi="31">
         <activity
+            android:name=".KghtActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KpatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HdsvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfomationActivity"
+            android:exported="false" />
+        <activity
             android:name=".ManualsActivity"
             android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyC322hEK63NFMBtZCMSviUgxgZNyfDNOz0" />
+            android:value="AIzaSyDsGQWh0Fjgq0yfzXhEWYekLiInSN6AfO4" />
 
         <activity
             android:name=".MapActivity"

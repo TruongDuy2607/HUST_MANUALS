@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="image_hdsv">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">220dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+    </style>
+
+    <style name="image_food">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">235dp</item>
+    </style>
+</resources>

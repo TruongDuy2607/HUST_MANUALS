@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MapActivity">
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/maps"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:id="@+id/maps"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
 
     <SearchView
         android:id="@+id/mapSearch"
@@ -23,16 +23,6 @@
         android:iconifiedByDefault="false"
         android:queryHint="Search..."
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/maps" />
-    <Button
-        android:id="@+id/btn_Directions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Directions"
-        app:layout_constraintEnd_toEndOf="@+id/mapSearch"
-        app:layout_constraintStart_toStartOf="@+id/mapSearch"
-        app:layout_constraintTop_toBottomOf="@+id/mapSearch" />
 </androidx.constraintlayout.widget.ConstraintLayout>
