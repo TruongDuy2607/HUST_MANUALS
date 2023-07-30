@@ -42,10 +42,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(MapActivity.this);
         getLastLocation();
-
-
         mapSearchView = findViewById(R.id.mapSearch);
-
         mapSearchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
@@ -64,6 +61,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                     myMap.addMarker(new MarkerOptions().position(latLng).title(location));
                     myMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 18));
                 } else {
+
                 }
                 return false;
             }
@@ -88,6 +86,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 if(location != null){
                     currentLocation = location;
                     SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.maps);
+                    assert mapFragment != null;
                     mapFragment.getMapAsync(MapActivity.this);
                 }
             }
